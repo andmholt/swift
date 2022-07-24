@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9163948B266F429B007A75A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9163948A266F429B007A75A2 /* AppDelegate.swift */; };
+		9163948D266F429B007A75A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9163948C266F429B007A75A2 /* SceneDelegate.swift */; };
+		9163948F266F429B007A75A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9163948E266F429B007A75A2 /* ContentView.swift */; };
+		91639491266F429C007A75A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91639490266F429C007A75A2 /* Assets.xcassets */; };
+		91639494266F429C007A75A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91639493266F429C007A75A2 /* Preview Assets.xcassets */; };
+		91639497266F429C007A75A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91639495266F429C007A75A2 /* LaunchScreen.storyboard */; };
+		916394A2266F429C007A75A2 /* Brain_Train_RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916394A1266F429C007A75A2 /* Brain_Train_RPSTests.swift */; };
+		916394AD266F429C007A75A2 /* Brain_Train_RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916394AC266F429C007A75A2 /* Brain_Train_RPSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9163949E266F429C007A75A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9163947F266F429B007A75A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91639486266F429B007A75A2;
+			remoteInfo = "Brain Train RPS";
+		};
+		916394A9266F429C007A75A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9163947F266F429B007A75A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91639486266F429B007A75A2;
+			remoteInfo = "Brain Train RPS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91639487266F429B007A75A2 /* Brain Train RPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Train RPS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9163948A266F429B007A75A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9163948C266F429B007A75A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9163948E266F429B007A75A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91639490266F429C007A75A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91639493266F429C007A75A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91639496266F429C007A75A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91639498266F429C007A75A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9163949D266F429C007A75A2 /* Brain Train RPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brain Train RPSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916394A1266F429C007A75A2 /* Brain_Train_RPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain_Train_RPSTests.swift; sourceTree = "<group>"; };
+		916394A3266F429C007A75A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916394A8266F429C007A75A2 /* Brain Train RPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brain Train RPSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916394AC266F429C007A75A2 /* Brain_Train_RPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain_Train_RPSUITests.swift; sourceTree = "<group>"; };
+		916394AE266F429C007A75A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91639484266F429B007A75A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9163949A266F429C007A75A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916394A5266F429C007A75A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9163947E266F429B007A75A2 = {
+			isa = PBXGroup;
+			children = (
+				91639489266F429B007A75A2 /* Brain Train RPS */,
+				916394A0266F429C007A75A2 /* Brain Train RPSTests */,
+				916394AB266F429C007A75A2 /* Brain Train RPSUITests */,
+				91639488266F429B007A75A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91639488266F429B007A75A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91639487266F429B007A75A2 /* Brain Train RPS.app */,
+				9163949D266F429C007A75A2 /* Brain Train RPSTests.xctest */,
+				916394A8266F429C007A75A2 /* Brain Train RPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91639489266F429B007A75A2 /* Brain Train RPS */ = {
+			isa = PBXGroup;
+			children = (
+				9163948A266F429B007A75A2 /* AppDelegate.swift */,
+				9163948C266F429B007A75A2 /* SceneDelegate.swift */,
+				9163948E266F429B007A75A2 /* ContentView.swift */,
+				91639490266F429C007A75A2 /* Assets.xcassets */,
+				91639495266F429C007A75A2 /* LaunchScreen.storyboard */,
+				91639498266F429C007A75A2 /* Info.plist */,
+				91639492266F429C007A75A2 /* Preview Content */,
+			);
+			path = "Brain Train RPS";
+			sourceTree = "<group>";
+		};
+		91639492266F429C007A75A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91639493266F429C007A75A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		916394A0266F429C007A75A2 /* Brain Train RPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				916394A1266F429C007A75A2 /* Brain_Train_RPSTests.swift */,
+				916394A3266F429C007A75A2 /* Info.plist */,
+			);
+			path = "Brain Train RPSTests";
+			sourceTree = "<group>";
+		};
+		916394AB266F429C007A75A2 /* Brain Train RPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				916394AC266F429C007A75A2 /* Brain_Train_RPSUITests.swift */,
+				916394AE266F429C007A75A2 /* Info.plist */,
+			);
+			path = "Brain Train RPSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91639486266F429B007A75A2 /* Brain Train RPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916394B1266F429C007A75A2 /* Build configuration list for PBXNativeTarget "Brain Train RPS" */;
+			buildPhases = (
+				91639483266F429B007A75A2 /* Sources */,
+				91639484266F429B007A75A2 /* Frameworks */,
+				91639485266F429B007A75A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brain Train RPS";
+			productName = "Brain Train RPS";
+			productReference = 91639487266F429B007A75A2 /* Brain Train RPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9163949C266F429C007A75A2 /* Brain Train RPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916394B4266F429C007A75A2 /* Build configuration list for PBXNativeTarget "Brain Train RPSTests" */;
+			buildPhases = (
+				91639499266F429C007A75A2 /* Sources */,
+				9163949A266F429C007A75A2 /* Frameworks */,
+				9163949B266F429C007A75A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9163949F266F429C007A75A2 /* PBXTargetDependency */,
+			);
+			name = "Brain Train RPSTests";
+			productName = "Brain Train RPSTests";
+			productReference = 9163949D266F429C007A75A2 /* Brain Train RPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		916394A7266F429C007A75A2 /* Brain Train RPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916394B7266F429C007A75A2 /* Build configuration list for PBXNativeTarget "Brain Train RPSUITests" */;
+			buildPhases = (
+				916394A4266F429C007A75A2 /* Sources */,
+				916394A5266F429C007A75A2 /* Frameworks */,
+				916394A6266F429C007A75A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				916394AA266F429C007A75A2 /* PBXTargetDependency */,
+			);
+			name = "Brain Train RPSUITests";
+			productName = "Brain Train RPSUITests";
+			productReference = 916394A8266F429C007A75A2 /* Brain Train RPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9163947F266F429B007A75A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Andrew Holt";
+				TargetAttributes = {
+					91639486266F429B007A75A2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9163949C266F429C007A75A2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 91639486266F429B007A75A2;
+					};
+					916394A7266F429C007A75A2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 91639486266F429B007A75A2;
+					};
+				};
+			};
+			buildConfigurationList = 91639482266F429B007A75A2 /* Build configuration list for PBXProject "Brain Train RPS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9163947E266F429B007A75A2;
+			productRefGroup = 91639488266F429B007A75A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91639486266F429B007A75A2 /* Brain Train RPS */,
+				9163949C266F429C007A75A2 /* Brain Train RPSTests */,
+				916394A7266F429C007A75A2 /* Brain Train RPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91639485266F429B007A75A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91639497266F429C007A75A2 /* LaunchScreen.storyboard in Resources */,
+				91639494266F429C007A75A2 /* Preview Assets.xcassets in Resources */,
+				91639491266F429C007A75A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9163949B266F429C007A75A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916394A6266F429C007A75A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91639483266F429B007A75A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9163948B266F429B007A75A2 /* AppDelegate.swift in Sources */,
+				9163948D266F429B007A75A2 /* SceneDelegate.swift in Sources */,
+				9163948F266F429B007A75A2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91639499266F429C007A75A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916394A2266F429C007A75A2 /* Brain_Train_RPSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916394A4266F429C007A75A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916394AD266F429C007A75A2 /* Brain_Train_RPSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9163949F266F429C007A75A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91639486266F429B007A75A2 /* Brain Train RPS */;
+			targetProxy = 9163949E266F429C007A75A2 /* PBXContainerItemProxy */;
+		};
+		916394AA266F429C007A75A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91639486266F429B007A75A2 /* Brain Train RPS */;
+			targetProxy = 916394A9266F429C007A75A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91639495266F429C007A75A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91639496266F429C007A75A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		916394AF266F429C007A75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		916394B0266F429C007A75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		916394B2266F429C007A75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brain Train RPS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Brain Train RPS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Holt.Brain-Train-RPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		916394B3266F429C007A75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brain Train RPS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Brain Train RPS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Holt.Brain-Train-RPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		916394B5266F429C007A75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain Train RPSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Holt.Brain-Train-RPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brain Train RPS.app/Brain Train RPS";
+			};
+			name = Debug;
+		};
+		916394B6266F429C007A75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain Train RPSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Holt.Brain-Train-RPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brain Train RPS.app/Brain Train RPS";
+			};
+			name = Release;
+		};
+		916394B8266F429C007A75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain Train RPSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Holt.Brain-Train-RPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brain Train RPS";
+			};
+			name = Debug;
+		};
+		916394B9266F429C007A75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain Train RPSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Holt.Brain-Train-RPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brain Train RPS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91639482266F429B007A75A2 /* Build configuration list for PBXProject "Brain Train RPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916394AF266F429C007A75A2 /* Debug */,
+				916394B0266F429C007A75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916394B1266F429C007A75A2 /* Build configuration list for PBXNativeTarget "Brain Train RPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916394B2266F429C007A75A2 /* Debug */,
+				916394B3266F429C007A75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916394B4266F429C007A75A2 /* Build configuration list for PBXNativeTarget "Brain Train RPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916394B5266F429C007A75A2 /* Debug */,
+				916394B6266F429C007A75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916394B7266F429C007A75A2 /* Build configuration list for PBXNativeTarget "Brain Train RPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916394B8266F429C007A75A2 /* Debug */,
+				916394B9266F429C007A75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9163947F266F429B007A75A2 /* Project object */;
+}
